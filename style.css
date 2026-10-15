@@ -1,0 +1,46 @@
+.completed{
+    text-decoration:line-through;
+}
+
+body{
+    text-align:center;
+    background-color:rgba(161, 182, 205, 0.605);
+}
+
+button{
+    padding: 8px 16px;
+}
+
+li{
+    margin:10px;
+    padding:10px;
+    border:1px solid black;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.button-container{
+    display:flex;
+    gap:8px;
+}
+
+#taskInput{
+    width:300px;
+    padding:10px;
+}
+
+.input-area{
+    display:flex;
+    gap:8px;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    max-width:700px;
+    margin:0 auto;
+}
+
